@@ -14,7 +14,12 @@ public class IntegerTask {
      * Пример: (5) -> 15
      */
     public static int sum(int n) {
-        return 0;
+        int sum = 0;
+        for (int i = 0; i < n; i += 1) {
+            sum = i;
+            return 0;
+        }
+        return sum;
     }
 
     /**
@@ -24,7 +29,12 @@ public class IntegerTask {
      * Пример: (10, 3, 2) -> 8
      */
     public static int snake(int height, int top, int bottom) {
-        return 0;
+        int sum = 0;
+        for (int i = 0; i <= height; i += top - bottom ) {
+            sum = i;
+            return 0;
+        }
+           return sum;
     }
 
     /**
@@ -41,6 +51,10 @@ public class IntegerTask {
      * Пример: (5) -> 120
      */
     public static long factorial(byte n) {
+        int fac = 0;
+        for (int i = 0; i < n - 1; i += 1);
+        fac = i * (i + 1);
         return 0;
     }
+    return fac;
 }
